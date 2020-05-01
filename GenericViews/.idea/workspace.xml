@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000d1f51-9d98-4c04-b1fe-814c18957dcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GenericApp/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericViews/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenericViews/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericViews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenericViews/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/genericviews/makeentry.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/genericviews/makeentry.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Django/python/HospitalRegPro/templates/hospital.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,7 +89,7 @@
       <updated>1588224174734</updated>
       <workItem from="1588224176312" duration="1443000" />
       <workItem from="1588318783371" duration="2855000" />
-      <workItem from="1588323031207" duration="719000" />
+      <workItem from="1588323031207" duration="1734000" />
     </task>
     <servers />
   </component>
@@ -91,10 +97,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1588322534337">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1588324662028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588322534337" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588324662028" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1588322490601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
