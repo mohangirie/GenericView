@@ -19,3 +19,12 @@ def makeentry(request):
         form = GenericForms()
         return render(request, 'genericviews/makeentry.html', {'form': form})
 
+class IndexView(generic.ListView):
+    context_object_name = 'list'
+    template_name = 'genericviews/index.html'
+    def get_queryset(self):
+        return Generic.objects.all()
+
+class DetailsView(generic.DetailView):
+    model = Generic
+    template_name = 'genericviews/detail.html'
