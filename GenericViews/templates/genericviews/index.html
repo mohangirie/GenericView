@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title>Title</title>
 </head>
 <body>
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            {% if list %}
+                <h1>Person details...</h1>
+                <UL>
+                {% for person in list %}
+                    <li>
+                    <a href="{% url "genericviewsdetails" person id %}">
+                        {{ person.name }}
+                    </a>
+                    </li>
+                {% endfor %}
+                </UL>
+            {% else %}
+                <h1>No Person Found</h1>
+            {% endif %}
+        </div>
+    </div>
+</div>
 </body>
 </html>
