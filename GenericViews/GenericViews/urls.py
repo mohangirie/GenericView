@@ -19,7 +19,7 @@ from GenericApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('entry',views.makeentry),
-    path('index',views.IndexView),
-    path('details',views.DetailsView),
+    path('entry', views.makeentry),
+    path('index', views.IndexView),
+    path('details', views.DetailsView),
 ]
